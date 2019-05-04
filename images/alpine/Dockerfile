@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM arm32v7/alpine:latest
 MAINTAINER AshDev <ashdevfr@gmail.com>
 
 # Java Version and other ENV
