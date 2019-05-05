@@ -70,9 +70,13 @@ ENV LEVEL=world \
   MAXPLAYERS=20 \
   MONSTERS=true \
   STRUCTURES=true \
-  SPAWNPROTECTION=16
-
-#ENV DYNMAP=true ESSENTIALS=false ESSENTIALSPROTECT=false PERMISSIONSEX=false CLEARLAG=false
+  SPAWNPROTECTION=16 \
+  DYNMAP=false \
+  ESSENTIALS=false \
+  ESSENTIALSPROTECT=false \
+  PERMISSIONSEX=false \
+  CLEARLAG=false \
+  EULA=true
 
 #set default command
 CMD trap 'exit' INT; /spigot_init.sh
